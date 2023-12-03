@@ -16,6 +16,7 @@
         android:layout_width="110dp"
         android:layout_marginStart="275dp"
         android:layout_height="wrap_content"
+        android:text="@string/delete"
         android:textSize="13sp"/>
 
 </FrameLayout>
