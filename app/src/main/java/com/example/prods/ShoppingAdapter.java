@@ -65,7 +65,7 @@ public class ShoppingAdapter extends RecyclerView.Adapter<ShoppingAdapter.Shoppi
     }
 
     public void addNote(String name){
-        ShoppingItem item = new ShoppingItem(name, false);
+        ShoppingItem item = new ShoppingItem(name);
         shoppingList.add(item);
         notifyItemInserted(shoppingList.size() - 1);
     }

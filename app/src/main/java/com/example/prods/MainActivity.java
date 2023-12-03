@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(linearLayoutManager);
 
         shopAdapter = new ShoppingAdapter(new ArrayList<>());
-//        productAdapter = new ProductAdapter(new ArrayList<>(), new ArrayList<>());
         recyclerView.setAdapter(shopAdapter);
 
         super.onCreate(savedInstanceState);
